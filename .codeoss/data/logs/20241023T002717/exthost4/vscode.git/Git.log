@@ -1,0 +1,52 @@
+2024-10-23 00:41:36.753 [info] Log level: Info
+2024-10-23 00:41:36.753 [info] Validating found git in: "git"
+2024-10-23 00:41:36.753 [info] Using git "2.30.2" from "git"
+2024-10-23 00:41:36.753 [info] > git rev-parse --show-toplevel [1144ms]
+2024-10-23 00:41:36.753 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-23 00:41:36.753 [info] > git rev-parse --show-toplevel [17ms]
+2024-10-23 00:41:36.753 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-23 00:41:39.768 [info] > git rev-parse --show-toplevel [2975ms]
+2024-10-23 00:41:39.768 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-23 00:41:39.818 [info] > git rev-parse --show-toplevel [26ms]
+2024-10-23 00:41:39.818 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-23 00:41:39.867 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-23 00:41:39.867 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-23 00:41:39.911 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-23 00:41:39.911 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-23 00:41:40.086 [info] > git rev-parse --show-toplevel [128ms]
+2024-10-23 00:41:40.086 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-23 00:41:40.333 [info] > git rev-parse --show-toplevel [221ms]
+2024-10-23 00:41:40.333 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-23 00:41:40.475 [info] > git rev-parse --show-toplevel [113ms]
+2024-10-23 00:41:40.475 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-23 00:41:41.072 [info] > git rev-parse --show-toplevel [574ms]
+2024-10-23 00:41:41.072 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-23 00:41:41.200 [info] > git rev-parse --show-toplevel [33ms]
+2024-10-23 00:41:41.200 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-23 00:42:51.490 [info] > git init -b main [8ms]
+2024-10-23 00:42:51.513 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-23 00:42:51.536 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-10-23 00:42:51.573 [info] Open repository: /home/itsupport
+2024-10-23 00:42:51.638 [info] > git fetch [62ms]
+2024-10-23 00:42:51.674 [info] > git config --get commit.template [41ms]
+2024-10-23 00:42:51.714 [info] No remotes found in the git config file.
+2024-10-23 00:42:51.747 [info] No remotes found in the git config file.
+2024-10-23 00:42:51.749 [info] > git config --get commit.template [76ms]
+2024-10-23 00:42:51.749 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [37ms]
+2024-10-23 00:42:51.791 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [44ms]
+2024-10-23 00:42:51.840 [info] > git config --get commit.template [50ms]
+2024-10-23 00:42:51.879 [info] No remotes found in the git config file.
+2024-10-23 00:42:51.884 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-10-23 00:42:52.950 [info] > git status -z -uall [1035ms] (cancelled)
+2024-10-23 00:43:11.492 [info] > git check-ignore -v -z --stdin [3ms]

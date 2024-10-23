@@ -1,0 +1,67 @@
+2024-10-23T00:13:07.345Z Error: timeout
+2024-10-23T00:13:07.345Z     at Object.error (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/errors/index.js:27:15)
+2024-10-23T00:13:07.345Z     at Login.browser (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@heroku-cli/command/lib/login.js:168:23)
+2024-10-23T00:13:07.345Z     at async Login.login (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@heroku-cli/command/lib/login.js:63:28)
+2024-10-23T00:13:07.345Z     at async APIHTTPClient.request (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@heroku-cli/command/lib/api-client.js:179:29)
+2024-10-23T00:13:07.345Z     at async createApp (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/lib/commands/apps/create.js:34:27)
+2024-10-23T00:13:07.345Z     at async runFromFlags (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/lib/commands/apps/create.js:102:17)
+2024-10-23T00:13:07.345Z     at async Create.run (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/lib/commands/apps/create.js:145:9)
+2024-10-23T00:13:07.345Z     at async Create._run (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/command.js:117:22)
+2024-10-23T00:13:07.345Z     at async Config.runCommand (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/config/config.js:314:25)
+2024-10-23T00:13:08.976Z Error: Couldn't find that app.
+2024-10-23T00:13:08.976Z Error ID: not_found
+2024-10-23T00:13:08.976Z     at APIHTTPClient.request (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@heroku-cli/command/lib/api-client.js:187:27)
+2024-10-23T00:13:08.976Z     at async GitRemote.run (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/lib/commands/git/remote.js:17:31)
+2024-10-23T00:13:08.976Z     at async GitRemote._run (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/command.js:117:22)
+2024-10-23T00:13:08.976Z     at async Config.runCommand (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/config/config.js:314:25)
+2024-10-23T00:13:08.976Z     at async Object.run (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/main.js:89:16)
+2024-10-23T00:13:10.991Z Error: The following error occurred:
+2024-10-23T00:13:10.991Z   Missing required flag app
+2024-10-23T00:13:10.991Z See more help with --help
+2024-10-23T00:13:10.991Z     at validateFlags (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/parser/validate.js:60:19)
+2024-10-23T00:13:10.991Z     at async Object.parse (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/parser/index.js:19:5)
+2024-10-23T00:13:10.991Z     at async Set.parse (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/command.js:221:25)
+2024-10-23T00:13:10.991Z     at async Set.run (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/lib/commands/config/set.js:17:40)
+2024-10-23T00:13:10.991Z     at async Set._run (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/command.js:117:22)
+2024-10-23T00:13:10.991Z     at async Config.runCommand (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/config/config.js:314:25)
+2024-10-23T00:13:10.991Z     at async Object.run (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/main.js:89:16)
+2024-10-23T00:24:20.543Z Error: The following error occurred:
+2024-10-23T00:24:20.543Z   Missing required flag app
+2024-10-23T00:24:20.543Z See more help with --help
+2024-10-23T00:24:20.543Z     at validateFlags (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/parser/validate.js:60:19)
+2024-10-23T00:24:20.543Z     at async Object.parse (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/parser/index.js:19:5)
+2024-10-23T00:24:20.543Z     at async Scale.parse (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/command.js:221:25)
+2024-10-23T00:24:20.543Z     at async Scale.run (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/lib/commands/ps/scale.js:14:20)
+2024-10-23T00:24:20.543Z     at async Scale._run (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/command.js:117:22)
+2024-10-23T00:24:20.543Z     at async Config.runCommand (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/config/config.js:314:25)
+2024-10-23T00:24:20.543Z     at async Object.run (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/main.js:89:16)
+2024-10-23T00:24:30.433Z Error: The following error occurred:
+2024-10-23T00:24:30.433Z   Missing required flag app
+2024-10-23T00:24:30.433Z See more help with --help
+2024-10-23T00:24:30.433Z     at validateFlags (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/parser/validate.js:60:19)
+2024-10-23T00:24:30.433Z     at async Object.parse (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/parser/index.js:19:5)
+2024-10-23T00:24:30.433Z     at async AppsOpen.parse (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/command.js:221:25)
+2024-10-23T00:24:30.433Z     at async AppsOpen.run (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/lib/commands/apps/open.js:8:33)
+2024-10-23T00:24:30.433Z     at async AppsOpen._run (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/command.js:117:22)
+2024-10-23T00:24:30.433Z     at async Config.runCommand (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/config/config.js:314:25)
+2024-10-23T00:24:30.433Z     at async Object.run (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/main.js:89:16)
+2024-10-23T00:27:14.203Z Error: timeout
+2024-10-23T00:27:14.203Z     at Object.error (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/errors/index.js:27:15)
+2024-10-23T00:27:14.203Z     at Login.browser (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@heroku-cli/command/lib/login.js:168:23)
+2024-10-23T00:27:14.203Z     at async Login.login (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@heroku-cli/command/lib/login.js:63:28)
+2024-10-23T00:27:14.203Z     at async APIHTTPClient.request (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@heroku-cli/command/lib/api-client.js:179:29)
+2024-10-23T00:27:14.203Z     at async createApp (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/lib/commands/apps/create.js:34:27)
+2024-10-23T00:27:14.203Z     at async runFromFlags (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/lib/commands/apps/create.js:102:17)
+2024-10-23T00:27:14.203Z     at async Create.run (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/lib/commands/apps/create.js:145:9)
+2024-10-23T00:27:14.203Z     at async Create._run (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/command.js:117:22)
+2024-10-23T00:27:14.203Z     at async Config.runCommand (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/config/config.js:314:25)
+2024-10-23T00:27:17.927Z Error: The following error occurred:
+2024-10-23T00:27:17.927Z   Missing required flag app
+2024-10-23T00:27:17.927Z See more help with --help
+2024-10-23T00:27:17.927Z     at validateFlags (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/parser/validate.js:60:19)
+2024-10-23T00:27:17.927Z     at async Object.parse (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/parser/index.js:19:5)
+2024-10-23T00:27:17.927Z     at async Scale.parse (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/command.js:221:25)
+2024-10-23T00:27:17.927Z     at async Scale.run (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/lib/commands/ps/scale.js:14:20)
+2024-10-23T00:27:17.927Z     at async Scale._run (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/command.js:117:22)
+2024-10-23T00:27:17.927Z     at async Config.runCommand (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/config/config.js:314:25)
+2024-10-23T00:27:17.927Z     at async Object.run (/usr/local/nvm/versions/node/v20.10.0/lib/node_modules/heroku/node_modules/@oclif/core/lib/main.js:89:16)
